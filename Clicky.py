@@ -5,7 +5,7 @@
 Ant_ID='Ant_ID'
 #Enter the video nome here:
 #(quotation marks are still important)
-video='GP014633'
+video='sample'
 #now press F5
 
 import moviepy
@@ -16,7 +16,7 @@ from moviepy.editor import *
 folder=video+'_frames'
 if not os.path.exists(folder):
     os.makedirs(folder) 
-    vid_name=video+'.MP4'
+    vid_name=video+'.mp4'
     clip = VideoFileClip(vid_name)
     print(clip.duration)
     time=0
