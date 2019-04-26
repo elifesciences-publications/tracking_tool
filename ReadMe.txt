@@ -1,3 +1,6 @@
+### This code is associated with the paper from Modlmeier et al., "Ant colonies maintain social homeostasis
+in the face of decreased density". eLife, 2019. http://dx.doi.org/10.7554/eLife.38473
+
 First time you run Clicky.py it will create a folder of jpeg images before opening the first image. If this folder already exists then this step will be skipped.
 
 When the first image appears click a point on the screen. Immediately the next image will appear (the image is one second later than the first in the video). Keep clicking and the pixel locations of your clicks will be recorded.
